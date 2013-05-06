@@ -186,7 +186,7 @@ The accompanying template, ``search_form.html``, could look like this::
 
 The URLpattern in ``urls.py`` could look like this::
 
-    from mysite.books import views
+    from books import views
 
     urlpatterns = patterns('',
         # ...
